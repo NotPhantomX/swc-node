@@ -59,7 +59,7 @@ export const resolve: ResolveFn = async (specifier, context, nextResolve) => {
   if (parentURL && TRANSFORM_MAP.has(parentURL) && specifier.startsWith('.')) {
     const existedURL = await checkRequestURL(parentURL, specifier)
     if (existedURL) {
-      const url = `${existedURL}.mjs`
+      const url = existedURL
       TRANSFORM_MAP.set(url, existedURL)
       return {
         url: new URL(url).href,
@@ -69,7 +69,7 @@ export const resolve: ResolveFn = async (specifier, context, nextResolve) => {
     }
   }
   if (DEFAULT_EXTENSIONS.some((ext) => specifier.endsWith(ext))) {
-    const newUrl = `${specifier}.mjs`
+    const newUrl = specifier
     TRANSFORM_MAP.set(newUrl, fileURLToPath(specifier))
     return {
       shortCircuit: true,
