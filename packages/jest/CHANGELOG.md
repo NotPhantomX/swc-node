@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.5](https://github.com/swc-project/swc-node/compare/@swc-node/jest@1.6.4...@swc-node/jest@1.6.5) (2023-04-24)
+
+**Note:** Version bump only for package @swc-node/jest
+
+## [1.6.4](https://github.com/swc-project/swc-node/compare/@swc-node/jest@1.6.3...@swc-node/jest@1.6.4) (2023-04-10)
+
+**Note:** Version bump only for package @swc-node/jest
+
+## [1.6.3](https://github.com/swc-project/swc-node/compare/@swc-node/jest@1.6.2...@swc-node/jest@1.6.3) (2023-03-31)
+
+**Note:** Version bump only for package @swc-node/jest
+
 ## [1.6.2](https://github.com/swc-project/swc-node/compare/@swc-node/jest@1.6.1...@swc-node/jest@1.6.2) (2023-02-15)
 
 ### Bug Fixes
